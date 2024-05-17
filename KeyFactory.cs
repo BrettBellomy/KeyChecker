@@ -28,7 +28,7 @@ namespace KeyChecker
                 case "a":
                     return new AMajorKey();
 
-                case "amior":
+                case "aminor":
                 case "am":
                     return new AMinorKey();
 
@@ -161,8 +161,8 @@ namespace KeyChecker
                     return new GSharpMinorKey();
 
                 default:
-                    Console.WriteLine("This is the defualt response.");
-                    return new CMajorKey();
+                    Console.WriteLine($"I'm sorry, '{key}' is not a valid input.");
+                    return new IncorrectInput();
             }
         }
     }

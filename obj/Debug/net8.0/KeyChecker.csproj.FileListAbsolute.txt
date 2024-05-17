@@ -12,3 +12,4 @@ C:\Users\Holli\OneDrive\Desktop\repos\KeyChecker\obj\Debug\net8.0\refint\KeyChec
 C:\Users\Holli\OneDrive\Desktop\repos\KeyChecker\obj\Debug\net8.0\KeyChecker.pdb
 C:\Users\Holli\OneDrive\Desktop\repos\KeyChecker\obj\Debug\net8.0\KeyChecker.genruntimeconfig.cache
 C:\Users\Holli\OneDrive\Desktop\repos\KeyChecker\obj\Debug\net8.0\ref\KeyChecker.dll
+C:\Users\Holli\OneDrive\Desktop\repos\KeyChecker\obj\Debug\net8.0\KeyChecker.sourcelink.json

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace KeyChecker
 {
-    public interface IKeyChecker
+    public class IncorrectInput : IKeyChecker
     {
-        public string KeyName { get; set; }
+        public string KeyName { get; set; } = "incorrect";
         public int KeySignatureSharps { get; set; }
         public int KeySignatureFlats { get; set; }
         public string Scale { get; set; }
@@ -21,5 +21,10 @@ namespace KeyChecker
         public string SevenChord { get; set; }
         public string RelativeKey { get; set; }
         public string ParallelKey { get; set; }
+
+        public void GetUsersNeeds()
+        {
+            Console.WriteLine("Please check your spelling and try again.");
+        }
     }
 }

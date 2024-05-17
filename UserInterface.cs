@@ -63,6 +63,9 @@ namespace KeyChecker
                         Console.WriteLine($"The relative key for {key.KeyName} is {key.RelativeKey} and the parallel key is {key.ParallelKey}");
                         Console.WriteLine();
                         break;
+                    case "exit":
+                        Console.WriteLine("Thank you for using our application!");
+                        break;
                     default:
                         Console.WriteLine($"I'm sorry, '{userResponseLower}' is not a valid input. Please check your spelling and try again.");
                         Console.WriteLine();

@@ -32,9 +32,28 @@ namespace KeyChecker
                     case "1 key signature":
                     case "key signature":
                     case "1: key signature":
-                        Console.WriteLine($"The key signature of {key.KeyName} has {key.KeySignatureFlats} flats and {key.KeySignatureSharps} sharps");
-                        Console.WriteLine();
+                        if (key.KeySignatureFlats == 1 && key.KeySignatureSharps == 0)
+                        {
+                            Console.WriteLine($"The key signature of {key.KeyName} has {key.KeySignatureFlats} flat");
+                            Console.WriteLine();
+                        }
+                        if (key.KeySignatureSharps == 1 && key.KeySignatureFlats == 0)
+                        {
+                            Console.WriteLine($"The key signature of {key.KeyName} has {key.KeySignatureSharps} sharp");
+                            Console.WriteLine();
+                        }
+                        else if (key.KeySignatureFlats == 0)
+                        {
+                            Console.WriteLine($"The key signature of {key.KeyName} has {key.KeySignatureSharps} sharps");
+                            Console.WriteLine();
+                        }
+                        else if (key.KeySignatureSharps == 0)
+                        {
+                            Console.WriteLine($"The key signature of {key.KeyName} has {key.KeySignatureFlats} flats");
+                            Console.WriteLine();
+                        }
                         break;
+
                     case "2":
                     case "2 scale":
                     case "scale":
@@ -42,6 +61,7 @@ namespace KeyChecker
                         Console.WriteLine($"The scale of {key.KeyName} is {key.Scale}");
                         Console.WriteLine();
                         break;
+
                     case "3":
                     case "3 chords":
                     case "chords":
@@ -56,6 +76,7 @@ namespace KeyChecker
                         Console.WriteLine(key.SevenChord);
                         Console.WriteLine();
                         break;
+
                     case "4":
                     case "4 related keys":
                     case "related keys":

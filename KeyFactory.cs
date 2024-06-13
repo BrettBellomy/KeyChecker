@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KeyChecker.Keys;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -33,7 +34,7 @@ namespace KeyChecker
                     return new AMinorKey();
 
                 case "a#minor":
-                case "asharpmajor":
+                case "asharpminor":
                 case "a#m":
                 case "asharpm":
                     return new ASharpMinorKey();

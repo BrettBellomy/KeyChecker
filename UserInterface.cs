@@ -32,6 +32,11 @@ namespace KeyChecker
                     case "1 key signature":
                     case "key signature":
                     case "1: key signature":
+                        if (key.KeySignatureFlats == 0 &&  key.KeySignatureSharps == 0)
+                        {
+                            Console.WriteLine($"The key signature of {key.KeyName} has {key.KeySignatureFlats} flats and {key.KeySignatureSharps} sharps");
+                            Console.WriteLine();
+                        }
                         if (key.KeySignatureFlats == 1 && key.KeySignatureSharps == 0)
                         {
                             Console.WriteLine($"The key signature of {key.KeyName} has {key.KeySignatureFlats} flat");
@@ -42,12 +47,12 @@ namespace KeyChecker
                             Console.WriteLine($"The key signature of {key.KeyName} has {key.KeySignatureSharps} sharp");
                             Console.WriteLine();
                         }
-                        else if (key.KeySignatureFlats == 0)
+                        else if (key.KeySignatureSharps != 0 && key.KeySignatureFlats == 0)
                         {
                             Console.WriteLine($"The key signature of {key.KeyName} has {key.KeySignatureSharps} sharps");
                             Console.WriteLine();
                         }
-                        else if (key.KeySignatureSharps == 0)
+                        else if (key.KeySignatureSharps == 0 && key.KeySignatureFlats != 0)
                         {
                             Console.WriteLine($"The key signature of {key.KeyName} has {key.KeySignatureFlats} flats");
                             Console.WriteLine();

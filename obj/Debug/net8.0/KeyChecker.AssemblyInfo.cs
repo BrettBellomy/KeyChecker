@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KeyChecker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fad9189278ee6330fb2b755d78f64486f34cc6d6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2541da4202653d2777a21428c2be9bd971bed58d")]
 [assembly: System.Reflection.AssemblyProductAttribute("KeyChecker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KeyChecker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -162,7 +162,7 @@ namespace KeyChecker
                     return new GSharpMinorKey();
 
                 default:
-                    Console.WriteLine($"I'm sorry, '{key}' is not a valid input.");
+                    Console.WriteLine($"I'm sorry, '{key}' is not a valid key name.");
                     return new IncorrectInput();
             }
         }

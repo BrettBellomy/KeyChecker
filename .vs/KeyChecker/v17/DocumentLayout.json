@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Holli\\OneDrive\\Desktop\\repos\\KeyChecker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B7DBE4B-8DE5-4458-8A97-8AE3411F32FB}|KeyChecker.csproj|c:\\users\\holli\\onedrive\\desktop\\repos\\keychecker\\userinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B7DBE4B-8DE5-4458-8A97-8AE3411F32FB}|KeyChecker.csproj|solutionrelative:userinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B7DBE4B-8DE5-4458-8A97-8AE3411F32FB}|KeyChecker.csproj|c:\\users\\holli\\onedrive\\desktop\\repos\\keychecker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7DBE4B-8DE5-4458-8A97-8AE3411F32FB}|KeyChecker.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserInterface.cs",
-              "DocumentMoniker": "C:\\Users\\Holli\\OneDrive\\Desktop\\repos\\KeyChecker\\UserInterface.cs",
-              "RelativeDocumentMoniker": "UserInterface.cs",
-              "ToolTip": "C:\\Users\\Holli\\OneDrive\\Desktop\\repos\\KeyChecker\\UserInterface.cs",
-              "RelativeToolTip": "UserInterface.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAB3AAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Holli\\OneDrive\\Desktop\\repos\\KeyChecker\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Holli\\OneDrive\\Desktop\\repos\\KeyChecker\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T15:25:46.99Z",
+              "WhenOpened": "2024-06-13T15:44:39.392Z",
               "EditorCaption": ""
             }
           ]
